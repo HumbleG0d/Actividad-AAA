@@ -31,10 +31,8 @@ public class CalculadorManyParamsMethodAddTest {
       //Assert
       assertEquals(expected , resultado);
 
-    }catch (Exception e){
-      assertThrows(ArithmeticException.class , () -> {
-        calculador.add(numberA , numberB);
-      });
+    }catch (ArithmeticException e){
+      System.out.print("Error: " + e.getMessage());
     }
 
   }
