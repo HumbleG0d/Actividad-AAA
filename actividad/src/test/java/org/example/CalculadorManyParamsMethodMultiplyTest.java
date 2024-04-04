@@ -13,9 +13,9 @@ public class CalculadorManyParamsMethodMultiplyTest {
           "2 , 3 , 6", //Test para dos numeros positivos.
           "-2 , -3 , 6", //Test para dos numeros negativos.
           "0 , 0 , 0 ", //Test para dos ceros.
-          "2147483647 , 1 , 2147483648", //Test para el valor maximo de un entero.
+          "2147483647 , 1 , 2147483647", //Test para el valor maximo de un entero.
           "-2 , 2147483647 , 2147483645", // Test para el valor minimo de un entero.
-          "-1 , -2147483646 , 2147483647" // Test para el valor minimo de un entero.
+          "-1 , -2147483646 , 2147483646" // Test para el valor minimo de un entero.
   })
   public void tests_ShouldReturnCorrectAdd(int numberA , int numberB , int expected){
     /*Arrange:
