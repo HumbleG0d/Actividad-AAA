@@ -15,7 +15,7 @@ public class CalculadorManyParamsMethodSubstracTest {
             "-2 , 2147483647 , 2147483647", // Test para el valor minimo de un entero.
             "-1 , -2147483646 , 2147483645" // Test para el valor minimo de un entero.
     })
-  public void testSubstract_ShouldReturnCorrectAdd(int numberA , int numberB , int expected){
+  public void testSubstract_ShouldReturnCorrectSubstrac(int numberA , int numberB , int expected){
     /*Arrange:
     * Datos de entrada -> Argumentos a y b.
     * Entorno de prueba -> Instancia del objeto Calculador
