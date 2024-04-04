@@ -16,7 +16,7 @@ public class CalculadorMethodMultiplyTest {
     int resultado = calculador.multiply(numeroA,numeroB);
 
     // Assert
-    assertEquals(15, resultado, "10 + 5  deberia ser 15");
+    assertEquals(50, resultado, "10 x 5  deberia ser ");
   }
 
   @Test //Test para dos numeros negativos
@@ -30,21 +30,21 @@ public class CalculadorMethodMultiplyTest {
     int resultado = calculador.multiply(numeroA, numeroB);
 
     // Assert
-    assertEquals(-15, resultado, "-10 + -5  deberia ser -15");
+    assertEquals(50, resultado, "-10 x -5  deberia ser 50");
   }
 
   @Test //Test para dos numeros de signos opuestos
   public void testMultiply_OppsitionSignsumbers_ShouldReturnCorrectMultiply() {
     // Arrange
     Calculador calculador = new Calculador();
-    int numeroA = -10;
-    int numeroB = 5;
+    int numeroA = 30;
+    int numeroB = -5;
 
     // Act
     int resultado = calculador.multiply(numeroA, numeroB);
 
     // Assert
-    assertEquals(-5, resultado, "-10 + 5  deberia ser -5");
+    assertEquals(-150, resultado, "30 x -5  deberia ser -150");
   }
 
   @Test //Test para el valor maximo de un entero
@@ -60,7 +60,7 @@ public class CalculadorMethodMultiplyTest {
       int resultado = calculador.multiply(numeroA, numeroB);
 
       // Assert
-      assertEquals(-2147483647, resultado, "2147483648 + 5  deberia ser -2147483647");
+      assertEquals(-2147483647, resultado, "2147483648 x 5  deberia ser 2147483647");
     }catch (ArithmeticException e){
       System.out.println("Error: " + e.getMessage());
     }
@@ -77,7 +77,7 @@ public class CalculadorMethodMultiplyTest {
     int resultado = calculador.multiply(numeroA, numeroB);
 
     // Assert
-    assertEquals(-2147483642 ,resultado, "-2147483648 + 5  deberia ser -2147483642");
+    assertEquals(-2147483643 ,resultado, "-2147483648 x 5  deberia ser -2147483642");
 
   }
 }
