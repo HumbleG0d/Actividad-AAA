@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class CalculadorMethodAddTest {
-  @Test //Test pata dos numeros positivos.
+  @Test //Test para dos numeros positivos.
   public void testAdd_PositiveNumbers_ShouldReturnCorrectAdd() {
     // Arrange
     Calculador calculador = new Calculador();
@@ -20,7 +20,7 @@ public class CalculadorMethodAddTest {
     assertEquals(15, resultado, "10 + 5  deberia ser 15");
   }
 
-  @Test //Test pata dos numeros positivos.
+  @Test //Test para dos numeros negativos
   public void testAdd_NegativeNumbers_ShouldReturnCorrectAdd() {
     // Arrange
     Calculador calculador = new Calculador();
@@ -34,7 +34,7 @@ public class CalculadorMethodAddTest {
     assertEquals(-15, resultado, "-10 + -5  deberia ser -15");
   }
 
-  @Test //Test pata dos numeros positivos.
+  @Test //Test para dos numeros de signos opuestos
   public void testAdd_OppsitionSignsumbers_ShouldReturnCorrectAdd() {
     // Arrange
     Calculador calculador = new Calculador();
@@ -48,7 +48,7 @@ public class CalculadorMethodAddTest {
     assertEquals(-5, resultado, "-10 + 5  deberia ser -5");
   }
 
-  @Test //Test pata dos numeros positivos.
+  @Test //Test para el valor maximo de un entero
   public void testAdd_MaxValue_ShouldReturnCorrectAdd() {
     // Arrange
     Calculador calculador = new Calculador();
@@ -67,7 +67,7 @@ public class CalculadorMethodAddTest {
     }
   }
 
-  @Test //Test pata dos numeros positivos.
+  @Test //Test para el valor minimo de un entero
   public void testAdd_MinValue_ShouldReturnCorrectAdd() {
     // Arrange
     Calculador calculador = new Calculador();

@@ -10,12 +10,12 @@ public class CalculadorManyParamsMethodAddTest {
 
   @ParameterizedTest
   @CsvSource({
-          "2 , 3 , 5",
-          "-2 , -3 , -5",
-          "0 , 0 , 0 ",
-          "2147483647 , 1 , 214748648",
-          "-2 , 2147483647 , 2147483645",
-          "-1 , -2147483646 , -2147483647"
+          "2 , 3 , 5", //Test para dos numeros positivos.
+          "-2 , -3 , -5", //Test para dos numeros negativos.
+          "0 , 0 , 0 ", //Test para dos ceros.
+          "2147483647 , 1 , 214748648", //Test para el valor maximo de un entero.
+          "-2 , 2147483647 , 2147483645", // Test para el valor minimo de un entero.
+          "-1 , -2147483646 , -2147483647" // Test para el valor minimo de un entero.
   })
   public void testSuma_ShouldReturnCorrectAdd(int numberA , int numberB , int expected){
     /*Arrange:
@@ -24,6 +24,7 @@ public class CalculadorManyParamsMethodAddTest {
     * */
 
     Calculador calculador = new Calculador();
+    //Captura de excepciones
     try{
       //Act
       int resultado = calculador.add(numberA , numberB);
