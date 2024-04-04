@@ -17,7 +17,7 @@ public class CalculadorManyParamsMethodMultiplyTest {
           "-2 , 2147483647 , 2147483645", // Test para el valor minimo de un entero.
           "-1 , -2147483646 , 2147483646" // Test para el valor minimo de un entero.
   })
-  public void tests_ShouldReturnCorrectAdd(int numberA , int numberB , int expected){
+  public void tests_ShouldReturnCorrectMultiply(int numberA , int numberB , int expected){
     /*Arrange:
     * Datos de entrada -> Argumentos a y b.
     * Entorno de prueba -> Instancia del objeto Calculador
