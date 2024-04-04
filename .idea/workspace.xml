@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e2aef78-2c7c-4322-ad12-4124a520e5b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/actividad/bin/main/org/example/Calculador.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorManyParamsMethodAddTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorMethodAddTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorNegativeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculatorMethodSubstractTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad/src/main/java/org/example/Calculador.java" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/src/main/java/org/example/Calculador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorManyParamsMethodAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorManyParamsMethodAddTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorMethodAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorMethodAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/main/org/example/Calculador.class" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/bin/main/org/example/Calculador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorManyParamsMethodAddTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorManyParamsMethodAddTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorManyParamsMethodMultiplyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorManyParamsMethodMultiplyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorManyParamsMethodSubstracTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorManyParamsMethodSubstracTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorMethodDivideTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorMethodDivideTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorMethodMultiplyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorMethodMultiplyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorNegativeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculadorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/bin/test/org/example/CalculatorMethodSubstractTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorManyParamsMethodMultiplyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorManyParamsMethodMultiplyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorManyParamsMethodSubstracTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorManyParamsMethodSubstracTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad/src/test/java/org/example/CalculadorManyParamsMethonDivide.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +81,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.Build actividad.executor": "Run",
     "Gradle.CalculadorManyParamsMethodAddTest.testSuma_ShouldReturnCorrectAdd.executor": "Run",
     "Gradle.CalculadorMethodAddTest.executor": "Run",
     "Gradle.CalculadorMethodAddTest.testAdd_MaxValue_ShouldReturnCorrectAdd.executor": "Run",
@@ -92,6 +94,7 @@
     "Gradle.CalculadorTest.testDivide_OppsitionSignsNumbers_ShouldReturnCorrectDivide.executor": "Run",
     "Gradle.CalculadorTest.testDivide_PositiveNumbers_ShouldReturnCorrectDivide.executor": "Run",
     "Gradle.CalculatorMethodAddTest.testSuma_ShouldReturnCorrectAdd.executor": "Run",
+    "JUnit.CalculadorManyParamsMethonDivide.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -107,6 +110,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/sergi/OneDrive/Escritorio/Actividad-AAA/actividad/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,7 +124,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculadorMethodAddTest.testAdd_NegativeNumbers_ShouldReturnCorrectAdd">
+  <component name="RunManager" selected="JUnit.CalculadorManyParamsMethonDivide">
     <configuration name="CalculadorManyParamsMethodAddTest.testSuma_ShouldReturnCorrectAdd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,30 +139,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;org.example.CalculadorManyParamsMethodAddTest.testSuma_ShouldReturnCorrectAdd&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="CalculadorMethodAddTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/actividad" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.CalculadorMethodAddTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -239,13 +221,28 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="CalculadorManyParamsMethonDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="actividad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculadorManyParamsMethonDivide" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadorManyParamsMethonDivide" />
         <item itemvalue="Gradle.CalculadorMethodAddTest.testAdd_NegativeNumbers_ShouldReturnCorrectAdd" />
         <item itemvalue="Gradle.CalculadorManyParamsMethodAddTest.testSuma_ShouldReturnCorrectAdd" />
         <item itemvalue="Gradle.CalculadorMethodAddTest.testAdd_MaxValue_ShouldReturnCorrectAdd" />
         <item itemvalue="Gradle.CalculadorMethodAddTest.testAdd_MinValue_ShouldReturnCorrectAdd" />
-        <item itemvalue="Gradle.CalculadorMethodAddTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +266,8 @@
       <workItem from="1712172774199" duration="12797000" />
       <workItem from="1712196322053" duration="767000" />
       <workItem from="1712198932960" duration="52000" />
+      <workItem from="1712226275421" duration="17000" />
+      <workItem from="1712245085738" duration="697000" />
     </task>
     <servers />
   </component>
