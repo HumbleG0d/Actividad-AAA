@@ -10,16 +10,17 @@ public class Calculador {
   }
 
   public int substract(int numeroA, int numeroB) {
-    if( (numeroA == Integer.MIN_VALUE && numeroB < 0) || (numeroB == Integer.MIN_VALUE && numeroA < 0 )){
-      throw new ArithmeticException("Overflow al restar " + numeroA + " y " + numeroB);
-    }
+    if ((numeroA < 0 && numeroB > 0 && numeroA < Integer.MIN_VALUE + numeroB) || (numeroA > 0 && numeroB < 0 && numeroA > Integer.MAX_VALUE + numeroB)) {
+            throw new ArithmeticException("Overflow al restar " + numeroA + " y " + numeroB);
+        }
     return numeroA - numeroB;
   }
 
   public int multiply(int numeroA, int numeroB) {
-    if(numeroA == Integer.MAX_VALUE || numeroB == Integer.MAX_VALUE){
-      throw new IllegalArgumentException();
+    if(numeroA == Integer.MAX_VALUE || numeroB == Integer.MAX_VALUE || numeroA == Integer.MIN_VALUE || numeroB == Integer.MIN_VALUE){
+      throw new ArithmeticException("Overflow al multiplicar " + numeroA + " y " + numeroB);
     }
+  
     return numeroA * numeroB;
   }
 
